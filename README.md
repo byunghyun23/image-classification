@@ -35,7 +35,6 @@ This repository contains training and test data. (No data download required.)
 
 ## Models
 Pre-trained models
-```
 * DenseNet121
 * DenseNet201
 * MobileNetV2
@@ -49,7 +48,6 @@ Pre-trained models
 * ResNet152V2
 * VGG16
 * VGG19
-```
 
 ## Training
 Run
