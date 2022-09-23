@@ -48,6 +48,7 @@ Pre-trained models
 * ResNet152V2
 * VGG16
 * VGG19
+
 Comparison of models
 | model            | val\_accuracy | accuracy | Training time (sec) |
 | ---------------- | ------------- | -------- | ------------------- |
