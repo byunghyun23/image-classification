@@ -12,7 +12,7 @@ This project classifies the input images into 8 classes.
 * Tensorflow 2.4
 
 ## Dataset
-For training the network, you need to download the dataset [Natural Images](https://www.kaggle.com/datasets/prasunroy/natural-images). Then, move the downloaded images(train data) to
+For training the model, you need to download the dataset [Natural Images](https://www.kaggle.com/datasets/prasunroy/natural-images). Then, move the downloaded images(train data) to
 ```
 data/train
 ```
