@@ -15,7 +15,7 @@ from util import generate_data_frame, show_data, show_category, show_dataframe, 
 @click.command()
 @click.option('--data_dir', default='data/train', help='Data path')
 @click.option('--batch_size', default=32, help='Batch size')
-@click.option('--epochs', default=300, help='Epochs')
+@click.option('--epochs', default=10, help='Epochs')
 def run(data_dir, batch_size, epochs):
     df = generate_data_frame(data_dir)
     print(df.head(5))
@@ -66,7 +66,7 @@ def run(data_dir, batch_size, epochs):
     best_model_name = results_df['model'][0]
     model = models[best_model_name]['model']
 
-    # Train best pre-trained model (epcohs 1 -> 5)
+    # Train best pre-trained model
     history = model.fit(train_images, validation_data=val_images, batch_size=batch_size, epochs=epochs)
 
     pd.DataFrame(history.history)[['accuracy', 'val_accuracy']].plot()
