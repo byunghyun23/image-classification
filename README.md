@@ -36,19 +36,19 @@ This repository contains training and test data. (No data download required.)
 ## Models
 Pre-trained models
 ```
-DenseNet121
-DenseNet201
-MobileNetV2
-MobileNetV3Large
-EfficientNetB0
-EfficientNetB1
-Xception
-InceptionV3
-ResNet50
-ResNet50V2
-ResNet152V2
-VGG16
-VGG19
+*DenseNet121*
+*DenseNet201*
+*MobileNetV2*
+*MobileNetV3Large*
+*EfficientNetB0*
+*EfficientNetB1*
+*Xception*
+*InceptionV3*
+*ResNet50*
+*ResNet50V2*
+*ResNet152V2*
+*VGG16*
+*VGG19*
 ```
 
 ## Training
