@@ -48,6 +48,22 @@ Pre-trained models
 * ResNet152V2
 * VGG16
 * VGG19
+Comparison of models
+| model            | val\_accuracy | accuracy | Training time (sec) |
+| ---------------- | ------------- | -------- | ------------------- |
+| InceptionV3      | 1             | 0.9967   | 16.12               |
+| ResNet152V2      | 0.9982        | 1        | 33.2                |
+| DenseNet201      | 0.9982        | 0.9984   | 37.78               |
+| DenseNet121      | 0.9982        | 0.9967   | 18.56               |
+| ResNet50V2       | 0.9964        | 1        | 11.97               |
+| Xception         | 0.9964        | 0.9934   | 12.88               |
+| MobileNetV2      | 0.9964        | 0.9885   | 13.45               |
+| VGG16            | 0.9872        | 0.9836   | 10.28               |
+| VGG19            | 0.9763        | 0.9902   | 19.19               |
+| ResNet50         | 0.75          | 0.7902   | 22.56               |
+| MobileNetV3Large | 0.3066        | 0.3246   | 12.05               |
+| EfficientNetB0   | 0.1569        | 0.1459   | 12.81               |
+| EfficientNetB1   | 0.1442        | 0.1918   | 17.11               |
 
 ## Training
 Run
