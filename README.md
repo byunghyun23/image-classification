@@ -2,7 +2,7 @@
 
 ## Introduction
 This is a TensorFlow implementation for image classification based on pre-trained models.
-This project classifies the input images into 8 classes.
+This repository classifies the input images into 8 classes.
 
 ![image](https://github.com/uof1745-cmd/PCN/blob/main/img/2.PNG)
 
@@ -12,7 +12,7 @@ This project classifies the input images into 8 classes.
 * Tensorflow 2.4
 
 ## Dataset
-For training the network, you need to download the dataset [Natural Images](https://www.kaggle.com/datasets/prasunroy/natural-images). Then, move the downloaded images(train data) to
+For training the model, you need to download the dataset [Natural Images](https://www.kaggle.com/datasets/prasunroy/natural-images). Then, move the downloaded images(train data) to
 ```
 data/train
 ```
@@ -20,7 +20,7 @@ For test data, move some of the training data or other images to
 ```
 data/test
 ```
-The training data path is:
+The training data path is
 ```
 data/train/airplane
 data/train/car
@@ -31,6 +31,7 @@ data/train/fruit
 data/train/motorbike
 data/train/person
 ```
+This repository contains training and test data. (No data download required.)
 
 ## Models
 Pre-trained models
