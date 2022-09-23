@@ -20,7 +20,7 @@ For test data, move some of the training data or other images to
 ```
 data/test
 ```
-The training data path is
+The training data path
 ```
 data/train/airplane
 data/train/car
