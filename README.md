@@ -1,7 +1,7 @@
 # Optimal Image Classification Model
 
 ## Introduction
-This is a TensorFlow implementation for image classification(8 classed) based on pre-trained models.
+This is a TensorFlow implementation for image classification(8 classes) based on pre-trained models.
 
 ![image](https://github.com/byunghyun23/Image-Classification/blob/main/acc.png)
 ![image](https://github.com/byunghyun23/Image-Classification/blob/main/training_time.png)
