@@ -1,7 +1,7 @@
 # Optimal Image Classification Model
 
 ## Introduction
-This is a TensorFlow implementation for image classification(8 classes) based on pre-trained models.
+This is a TensorFlow implementation for Image Classification(8 classes) based on pre-trained models.
 
 ![image](https://github.com/byunghyun23/Image-Classification/blob/main/acc.png)
 ![image](https://github.com/byunghyun23/Image-Classification/blob/main/training_time.png)
@@ -15,22 +15,22 @@ This is a TensorFlow implementation for image classification(8 classes) based on
 For training the model, you need to download the dataset [Natural Images](https://www.kaggle.com/datasets/prasunroy/natural-images).  
 Then, move the downloaded images(train data) to
 ```
-data/train
+--data/train
 ```
 For test data, move some of the training data or other images to
 ```
-data/test
+--data/test
 ```
 The training data path
 ```
-data/train/airplane
-data/train/car
-data/train/cat
-data/train/dog
-data/train/flower
-data/train/fruit
-data/train/motorbike
-data/train/person
+--data/train/airplane
+--data/train/car
+--data/train/cat
+--data/train/dog
+--data/train/flower
+--data/train/fruit
+--data/train/motorbike
+--data/train/person
 ```
 This repository contains training and test data. (No data download required.)
 
